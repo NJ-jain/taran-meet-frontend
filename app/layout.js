@@ -1,3 +1,4 @@
+import Wrapper from "@/wrapper/wrapper";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -22,7 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Wrapper>
+          {children}
+        </Wrapper>
       </body>
     </html>
   );

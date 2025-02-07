@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
+    "lucide": "^0.474.0",
+    "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.3",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
     "postcss": "^8",
