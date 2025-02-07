@@ -3,7 +3,8 @@ import { useParams } from 'next/navigation'
 import React, { useEffect, useRef, useState } from 'react'
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:5000");
+const url = process.env.REACT_APP_BACKEND_URL;
+const socket = io.connect(url);
 
 
 const page = () => {
